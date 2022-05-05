@@ -8,8 +8,8 @@
   tasks:
     - name: OE setup | Set installer URLs from the OE storage account
       set_fact:
-        intel_psw_url:       "https://registrationcenter-download.intel.com/akdlm/irc_nas/18335/Intel%20SGX%20PSW%20for%20Windows%20v2.14.101.1.exe"
-        intel_psw_hash:      "467A6D316C1FFE62CF212593C2E0B0CB7B5FB86F680FEB017EE4D1170C954E60"
+        intel_psw_url:       "https://downloadmirror.intel.com/729371/Intel SGX PSW for Windows v2.15.100.4.zip"
+        intel_psw_hash:      "11F8C16F175147DB735A9E37AEEBDA532958A59EE87A979D0F7456E7CAC1B4EC"
         intel_dcap_url:      "https://downloadmirror.intel.com/729371/Intel SGX DCAP for Windows v1.13.100.4.zip"
         intel_dcap_hash:     "9ED5B281F1DD9F0EF2BAF8C8F0DE4463804C714A26A0108DFF097555F0F73C17"
         git_url:             "https://oejenkins.blob.core.windows.net/oejenkins/Git-2.31.1-64-bit.exe"
